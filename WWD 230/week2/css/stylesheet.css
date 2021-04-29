@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+main {
+
+  max-width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 270px 1fr;
+  grid-template-rows: 40px 522px 3px;
+  padding: 40px;
+  grid-column-gap: 40px;
+  background-color: #e7ecf2;
+  border: 40px solid #e7ecf2;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+#popular {
+  background-color:#12aaeb;
+  color: white;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: start;
+  padding-bottom: none;
+  align-self: stretch;
+
+}
+
+section {
+  grid-row: 2/4;
+  background-color: white;
+}
+h2, .pricing {
+  color:#12aaeb;
+}
+
+section.smaller {
+  grid-row: 2;
+  border-bottom: 10px solid  #d1e8fa;
+}
+section.bigger {
+  grid-row: 2;
+  grid-column: 2;
+  border-bottom: 10px solid  #d1e8fa;
+  align-self: center;
+  align-self: stretch;
+}
+
+
+span {
+  font-size: 3.5em;
+  vertical-align: text-top;
+  font-weight: bold;
+}
+
+em {
+  position: relative;
+  top: 0.7em;
+  font-size: 1.7em;
+  font-style: normal;
+}
+button {
+  background-color: #d8d8d8;
+  color: white;
+}
+
+@media only screen and (max-width: 799px) {
+  main {
+    display: block;
+    width: auto;
+  }
+  body {
+    margin: 0;
+    width: auto;
+  }
+}
