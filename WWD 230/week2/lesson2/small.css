@@ -1,0 +1,46 @@
+main {
+    font-family: 'Antonio', sans-serif;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-gap: 40px;
+    min-height: 500px;   
+    margin: 0 auto; 
+    max-width: 900px;
+}
+h2 {
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+h1 {
+    
+    background-color: darkblue;
+    color: white;
+    grid-column: 1/2;
+    text-align: center;
+    align-self: center;
+    height: 100px;
+}
+img {
+    max-width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+section {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 25px;
+}
+.VH {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.RoT {
+    grid-column: 1/2;
+    grid-row:3/4;
+}
+.WS {
+    grid-column: 1/2;
+    grid-row:4/5;
+}
