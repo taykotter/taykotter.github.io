@@ -1,0 +1,46 @@
+body {
+    max-width: 750px;
+    min-height: 500px;
+    border: 5px black solid;
+    font-family: 'Itim', cursive;
+}
+.nav {
+    background-color: lightgray;
+    height: 50px;
+    
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content:start;
+
+}
+li { 
+    float: left;
+}
+li a {
+    display:block;
+    text-decoration: none;
+    max-width: 50px;
+    align-items: end;
+
+}
+  #box1 {
+      background-color: #E8D33F;
+      border: 2.5px lightgray solid;
+      padding: 5px;
+  }
+  #box2 {
+      background-color: #D81E5B;
+      border: 2.5px lightgray solid;
+      padding: 5px;
+  }
+  #box3 {
+      background-color: #41E2BA;
+      border: 2.5px lightgray solid;
+      padding: 5px;
+  }
