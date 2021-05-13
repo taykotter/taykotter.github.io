@@ -1,0 +1,128 @@
+main {
+    padding 10px;
+}
+    #hero {
+        width: 100%;
+    }
+    
+    header {
+        background-color: #6B8F71;
+        font-family: 'Girassol', cursive;
+
+    }
+    nav {
+        margin: 0 auto;
+        max-width: 100%;
+        background-color: tomato;
+    }
+    .navigation {
+        list-style: none;
+        padding: 0;
+    }
+    .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    }
+    body {
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    nav button {
+        margin: .2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6em;
+        color: #555;
+        float: right;
+    }
+    #logo {
+        max-width: 50px;
+        display: inline;
+    }
+    h1 {
+        display: inline;
+    }
+    
+    body {
+        font-family: 'Newsreader', serif;
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+    nav button {
+        margin: .2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6em;
+        color: #555;
+        position: absolute;
+        top: 9px;
+        right: 9px;
+        width: 30px;
+        height: 30px
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav ul li a:hover {
+        background-color: rgba(236, 22, 22, 0.4);
+    
+    }
+    nav ul li.active a{
+        color: #fff;
+    }
+    
+    nav ul.hide {
+        display: none;
+    }
+    .article {
+        background-color: lightgray;
+    }
+    .article span {
+        text-align: justify;
+    }
+    footer {
+        background-color: #6B8F71;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1/3fr 2/3fr;
+    }
+    footer #map {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-self: center;
+    }
+    footer a {
+        display: none;
+    }
+    footer .footertext {
+        grid-column: 1/2;
+        justify-self: center;
+    }
+    footer .copyright {
+        grid-column: 1/2;
+        justify-self: center;;
+    }
+    .fivedayforcast li{
+        list-style: none;
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+    .fdf {
+        background-color: lightgrey;
+        padding: 5px;
+        margin: 5px;
+
+    }
