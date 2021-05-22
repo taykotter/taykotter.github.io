@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Preston Idaho Weather</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Newsreader:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<meta name="description" content="Taylor Kotter in WWD 230: Web Front Development at Brigham Young University - Idaho. Preston Idaho Weather Page">
+
+<style>
+</style>
+<body>
+<header>
+<h3 id="fridayMessage">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion. <img src="/WWD230/week5/lesson5/images/pancakes.png" alt="pancake"> </h3>
+<div class="heading">
+<img src="images/kotterweathericon.png" alt="logo" id="logo">
+<h1>Kotter Weather</h1>
+<h3>Keeping Idaho prepared for better weather</h3>
+</div>
+<nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="navigation" class="hide" >
+        <li><a href="">Home</a></li>
+        <li><a href="">Preston</a></li>
+        <li><a href="">Soda Springs</a></li>
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="">Storm Center</a></li>
+        <li><a href="">Gallery</a></li>
+    </ul>
+</nav>
+</header>
+<main>
+<h2>Preston Idaho</h2>
+<div class="weatherSummary">
+<img src="images/landscape.jpg" alt="hero image" id="hero">
+<div class="text">
+<p class="weatherSummaryHeader"> Weather Summary</p>
+<p> Currently: Sunny</p>
+<p> High: 66&#x2109; </p>
+<p> Wind Chill:&#x210; </p>
+<p> Humidity: 31% </p>
+<p> Wind Speed: 14 mph</p>
+</div></div>
+<div class="fdf">
+<p><b>Five Day Forecast</b></p>
+<ul class="fivedayforcast">
+    <li>Friday<img src="images/rain.png" alt="day1"><br>63&#x2109;</li>
+    <li>Saturday<img src="images/cloudy.png" alt="day2"><br>66&#x2109;</li>
+    <li>Sunday<img src="images/rain.png" alt="day3"><br>57&#x2109;</li>
+    <li>Monday<img src="images/cloudy.png" alt="day4"><br>62&#x2109;</li>
+    <li>Tuesday<img src="images/cloudy.png" alt="day5"><br>70&#x2109;</li>
+</ul>
+</div>
+<div class=article>
+<img src="https://via.placeholder.com/125X100" alt="article picture">
+
+<p>Article Title</p>
+<span> Words n Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words
+    Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words
+</span>
+</div>
+</main>
+<footer>
+    <img src="/WWD230/week5/lesson5/images/prestonmap.jpg" alt ="location map" id="map">
+    <div class="footertext">
+    <p><b>Contact Information</b></p>
+    <p>545 South Center St. Rexburg, ID, 83440</p>
+    <p>(208) 932-6699</p>
+    <p>kotterweather@weather.com</p>
+    <div class="social">
+    <a href="https://www.facebook.com"><img src="https://via.placeholder.com/40" alt="facebook link"></a>
+    <a href="https://www.instagram.com"><img src="https://via.placeholder.com/40" alt="instagram link"></a>
+    <a href="https://www.twitter.com"><img src="https://via.placeholder.com/40" alt="twitter link"></a>
+</div>
+</div>
+<span class="copyright">
+     
+<a href="" class="terms">Terms of Use</a> | &copy; 2021 Weather Site Project - Taylor Kotter | <span class="mod"><span id = "todayDate"></span> </span>
+</span>
+</footer>
+<script src="js/preston-5.js"></script>
+</body>
+</html>
