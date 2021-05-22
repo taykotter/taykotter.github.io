@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 750px){
+@media only screen and (min-width: 750px) and (max-width: 1000px){
     main {
         max-width: 1000px;
         margin: 0 auto;
@@ -139,7 +139,7 @@
     footer .termsofuse {
         grid-column: 2/3;
         grid-row: 2/3;
-        padding: 15px;
+        padding: 30px;
     }
     .fivedayforcast li img {
         max-width: 100px;
