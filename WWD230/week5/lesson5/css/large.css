@@ -4,11 +4,35 @@ main {
     max-width: 1000px;
     margin: 0 auto;
 }
+header {
+    background-color: #6B8F71;
+    font-family: 'Girassol', cursive;
+
+}
+nav {
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: tomato;
+}
 header, footer {
     max-width: 1125px;
     margin: 0 auto;
 }
-
+#hero {
+    width: 100%;
+}
+#logo {
+    max-width: 50px;
+    display: inline;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
 nav ul {
     display: inline-block;
     
@@ -109,6 +133,26 @@ footer .copyright {
 footer a {
     display: inline;
 }
+nav ul li a:hover {
+    background-color: rgba(236, 22, 22, 0.4);
 
-
+}
+nav ul li.active a{
+    color: #fff;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    color: black;
+}
+.article {
+    background-color: lightgray;
+}
+.article span {
+    text-align: justify;
+}
+h1 {
+    display: inline;
+}
 }
