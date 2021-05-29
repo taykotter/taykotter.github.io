@@ -1,7 +1,6 @@
+    
+
 @media only screen and (max-width: 425px) {
-main {
-    padding: 10px;
-}
     #hero {
         width: 100%;
     }
@@ -30,6 +29,7 @@ main {
     }
     body {
         font-family: 'Noto Sans JP', sans-serif;
+        padding-left: 30px;
     }
     nav button {
         margin: .2rem 2%;
@@ -39,7 +39,7 @@ main {
         color: #555;
         float: right;
         position: absolute;
-        top: 150px;
+        top: 98px;
         right: 5px;
     }
     #logo {
@@ -52,7 +52,7 @@ main {
     
     body {
         font-family: 'Newsreader', serif;
-        max-width: 1250px;
+        max-width: 425px;
         margin: 0 auto;
     }
     nav ul {
