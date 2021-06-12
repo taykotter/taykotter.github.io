@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Storm Center</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Newsreader:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<meta name="description" content="Taylor Kotter in WWD 230: Web Front Development at Brigham Young University - Idaho. Storm center Weather Page">
+<body>
+<header>
+<div class="heading">
+<img src="images/kotterweathericon.png" alt="logo" id="logo">
+<h1>Kotter Weather</h1>
+<h3>Keeping Idaho prepared for better weather</h3>
+</div>
+<nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="navigation" class="hide" >
+        <li><a href="">Home</a></li>
+        <li><a href="/WWD230/week6/lesson6/preston-6.html">Preston</a></li>
+        <li><a href="">Soda Springs</a></li>
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="/WWD230/week8/stormcenter.html">Storm Center</a></li>
+        <li><a href="/WWD230/week7/lesson7/gallery-7.html">Gallery</a></li>
+    </ul>
+    
+</nav>
+</header>
+<main>
+<h2> Storm Center</h2>
+<form method="get" action="thanks.html">
+    <fieldset>
+    <legend> Personal Information</legend>
+    <label><span>Full Name*:</span> <input type="text" name="fname" placeholder="Full Name" pattern="[A-z\s]{5,}" required></label>
+    <label><span>Email:</span><input type="email" name="email" placeholder="youremail@mail.com" autocomplete="off"></label>
+             
+               <label><span>Phone*:</span><input type="tel" name="phone" required ></label>
+             
+                <label><span>Zip code*:</span> <input type="number" name="zip" required></label>
+          </fieldset>
+         
+         <fieldset>
+            <legend>Storm Report</legend>
+             
+                <label><span>Storm Date:</span><input type="date"  name="date"></label> 
+                
+                <label><span>Storm Type:</span><input type="text"  name="stormtype" list="storms">
+                    <datalist id="storms">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                    </datalist>
+             </label>
+             
+                <label><span>Storm Severity: From 1 to 10: </span>
+		              <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		              <span id="ratingvalue">5</span>
+                </label>
+            
+              <label><span>Storm Region:</span>
+                  <select name="stormregion">
+                  <option value="select" disabled selected>Select Region</option>
+                  <option value="franklin">Franklin</option>
+                  <option value="greenville">Greenville</option>
+                  <option value="springfield">Springfield</option>
+                  </select>
+             </label>
+        
+                 
+             <span>User In-Danger Level:</span>
+               <label><input type="radio" name="danger" value="yes">Yes</label>
+               <label><input type="radio" name="danger" value="maybe">Maybe</label>
+               <label><input type="radio" name="danger" value="no">No</label>
+        
+             
+           <label ><span>Additional Information</span>
+                 <textarea name="additionalinformation"></textarea>
+            </label>
+         </fieldset>
+         
+         
+          <input type="submit" value="Submit" class="submitBtn">
+</form>
+</main>
+<footer>
+    <div class="footertext">
+    <p><b>Contact Information</b></p>
+    <p>545 South Center St. Rexburg, ID, 83440 |&emsp;(208) 932-6699 &emsp; | kotterweather@weather.com</p>
+    <p></p>
+   
+</div>
+<span class="copyright">
+     
+<a href="" class="terms">Terms of Use</a> | &copy; 2021 Weather Site Project - Taylor Kotter | <span class="mod"><span id = "todayDate"></span> </span>
+</span>
+</footer>
+<script src="js/stormcenter.js"></script>
+<script src="js/windchill.js"></script>
+</body>
+</html>

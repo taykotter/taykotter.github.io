@@ -20,3 +20,20 @@ img {
 p {
     text-align: center;
 }
+eader {
+    background-color: #6B8F71;
+    font-family: 'Girassol', cursive;
+
+}
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}

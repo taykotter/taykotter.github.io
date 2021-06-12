@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Storm Center</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Newsreader:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<meta name="description" content="Taylor Kotter in WWD 230: Web Front Development at Brigham Young University - Idaho. Storm center Weather Page">
+<body>
+<header>
+<div class="heading">
+<img src="images/kotterweathericon.png" alt="logo" id="logo">
+<h1>Kotter Weather</h1>
+<h3>Keeping Idaho prepared for better weather</h3>
+</div>
+<nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="navigation" class="hide" >
+        <li><a href="">Home</a></li>
+        <li><a href="/WWD230/week6/lesson6/preston-6.html">Preston</a></li>
+        <li><a href="">Soda Springs</a></li>
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="/WWD230/week8/stormcenter.html">Storm Center</a></li>
+        <li><a href="/WWD230/week7/lesson7/gallery-7.html">Gallery</a></li>
+    </ul>
+    
+</nav>
+</header>
+<main class="thanksPage">
+    <h2 class="thankYouMesssage" id="thankYouHeader">Thank You for your Storm Report</h2>
+    <p class="thankYouMesssage" id="thankYouParagraph"> Kotter Weather will check it out and we will update our pages. Stay Safe!</p>
+</main>
+<footer>
+    <div class="footertext">
+    <p><b>Contact Information</b></p>
+    <p>545 South Center St. Rexburg, ID, 83440 <br>(208) 932-6699 | kotterweather@weather.com</p>
+    <p></p>
+    
+</div>
+<span class="copyright">
+     
+<a href="" class="terms">Terms of Use</a> | &copy; 2021 Weather Site Project - Taylor Kotter | <span class="mod"><span id = "todayDate"></span> </span>
+</span>
+</footer>
+<script src="js/stormcenter.js"></script>
+<script src="js/windchill.js"></script>
+</body>
+</html>

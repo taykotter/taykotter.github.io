@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>Weather Gallery</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Newsreader:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/small.css">
 <link rel="stylesheet" href="css/medium.css">
 <link rel="stylesheet" href="css/large.css">
@@ -13,7 +17,24 @@
 </head>
 <body>
 <header>
-    
+    <header>
+        <div class="heading">
+        <img src="images/kotterweathericon.png" alt="logo" id="logo">
+        <h1>Kotter Weather</h1>
+        <h3>Keeping Idaho prepared for better weather</h3>
+        </div>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="navigation" class="hide" >
+                <li><a href="">Home</a></li>
+                <li><a href="/WWD230/week6/lesson6/preston-6.html">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li><a href="/WWD230/week8/stormcenter.html">Storm Center</a></li>
+                <li><a href="/WWD230/week7/lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        </header>
         <!--<img src="images/kotterweathericon.png" alt="logo" id="logo">
         <h1>Kotter Weather</h1>
         <h3>Keeping Idaho prepared for better weather</h3>
