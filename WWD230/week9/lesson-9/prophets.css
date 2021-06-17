@@ -35,6 +35,12 @@ section img {
     margin: 0 12.5%;
 }
 
+footer {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+
 @media only screen and (min-width: 769px){ 
     .cards {
         grid-template-columns: 1fr 1fr 1fr 1fr; 
