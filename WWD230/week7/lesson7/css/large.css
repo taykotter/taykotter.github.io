@@ -1,24 +1,22 @@
-@media only screen and (min-width: 769px) {
-   img {
-       width: 100%;
-       height: 80%;
-   }
- .grid 
-  {
-    margin: 0 auto;
-    padding-right:100px;
-    padding-left: 100px;
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px 300px;
-    grid-gap: 20px;
-   }
-   picture:hover {
-       box-shadow: 0 0 50px #333;
-    }
-}
 @media only screen and (min-width: 769px){
+    img {
+        width: 100%;
+        height: 80%;
+    }
+  .grid 
+   {
+     margin: 0 auto;
+     padding-right:100px;
+     padding-left: 100px;
+     
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 300px 300px 300px;
+     grid-gap: 20px;
+    }
+    picture:hover {
+        box-shadow: 0 0 50px #333;
+     }
     body {
         max-width: 1000px;
         margin: 0 auto;
@@ -42,9 +40,7 @@ header, footer {
     max-width: 1125px;
     margin: 0 auto;
 }
-#hero {
-    
-}
+
 #logo {
     max-width: 50px;
     display: inline;
@@ -76,51 +72,9 @@ nav ul li a:link {
     padding-left: 50px
 }
 
-.weatherSummary {
-    position: relative;
-    display: inline-block;
-}
-.weatherSummary .text{
-    position: absolute;
-    color: white;
-    background-color: rgba(131, 236, 11, 0.6);
-    max-width: 150px;
-    min-height: 125px;
-    top: 10%;
-    margin-left: 20px;
-    padding: 5px;
-}
-.fivedayforcast .fdf {
-    max-width: 700px;
-}
-.fivedayforcast {
-    background-color: lightgray;
-    display: flex;
-    justify-content: space-evenly;
 
-}
-.fivedayforcast li {
-    list-style: none;
-    display: inline;
-    
-}
-.fivedayforcast li img {
-    display: block;
-    max-width: 50px;
-}
-.article {
-    min-height: 125px;
-}
-.article span {
-    text-align: justify;
-}
-.article img {
-    float: right;
-}
 footer {
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: 50% 50%;
     grid-template-rows: 85% 15%;
     background-color: #6B8F71;
 }
@@ -178,15 +132,5 @@ nav ul li a {
 }
 h1 {
     display: inline;
-}
-#fridayMessage {
-    background-color: rgb(241, 241, 44);
-    padding: 8px;
-    text-align: center;
-    
-}
-#fridayMessage img {
-    width: 25px;
-    
 }
 }

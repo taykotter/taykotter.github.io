@@ -85,9 +85,7 @@
         grid-column: 2/3;
         grid-row: 2/3;
         padding: 30px;
-    }
-    .fivedayforcast li img {
-        max-width: 100px;
+  
     }
 nav ul li a:hover {
     background-color: rgba(236, 22, 22, 0.4);
@@ -120,14 +118,5 @@ header {
 h1 {
     display: inline;
 }
-#fridayMessage {
-    background-color: rgb(241, 241, 44);
-    padding: 8px;
-    text-align: center;
-    
-}
-#fridayMessage img {
-    width: 25px;
-    
-}
+
     }

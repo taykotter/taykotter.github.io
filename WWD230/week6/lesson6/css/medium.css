@@ -89,14 +89,6 @@
     .navigation li:first-child {
         display: none;
     }
-    nav button {
-        margin: .2rem 2%;
-        background-color: transparent;
-        border: none;
-        font-size: 1.6em;
-        color: #555;
-        float: right;
-    }
     nav ul.hide {
         display: block;
     }
