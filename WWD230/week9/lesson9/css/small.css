@@ -1,0 +1,106 @@
+    /*Every Small CSS Page Header, Navigation, Body, Logo, Footer*/
+header {
+    background-color: #6B8F71;
+    font-family: 'Girassol', cursive;
+    padding: 20px;
+
+}
+nav {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    max-width: 425px;
+    margin: 0 auto;
+    line-height: 1;
+}
+nav button {
+    margin-right: auto;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6em;
+    color: #555;
+
+}
+#logo {
+    width: 50px;
+    display: inline;
+}
+h1 {
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    color: black;
+    background-color: tomato;
+}
+
+nav ul li a:hover {
+    background-color: rgba(236, 22, 22, 0.4);
+
+}
+nav ul li.active a{
+    color: #fff;
+}
+
+nav ul.hide {
+    display: none;
+}
+footer {
+    margin-top: 20px;
+    background-color: #6B8F71;
+    padding: 10px;
+    text-align: center;
+}
+section {
+    max-width: 90%;
+    margin: 0 auto;
+    
+    
+    background-color: #facca0;
+    border:  2px solid #6B8F71;
+    padding: 10px;
+    
+    
+}
+.cards img {
+    max-width: 100%;
+
+}
+
+.motto {
+    font-family: 'Girassol', cursive;
+}
+.data h2 {
+    font-weight: bold;
+}
+.cards {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding-top: 15px;
+    
+}
