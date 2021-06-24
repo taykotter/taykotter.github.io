@@ -20,7 +20,7 @@ fetch(apiURL)
     const weatherData = document.getElementById("weatherData")
     weatherData.innerHTML = '';
     console.log(jsObject);
-  for (i=0; i <  jsObject.list.length  ; i++) {
+  for ( var i=0; i <  jsObject.list.length  ; i++) {
     if (jsObject.list[i].dt_txt.includes("18:00:00")) {
     weatherData.innerHTML += `<td> <img src="https://openweathermap.org/img/wn/${jsObject.list[i].weather[0].icon}@2x.png">
                                             ${jsObject.list[i].main.temp} °F
