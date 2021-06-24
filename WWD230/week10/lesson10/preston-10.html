@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Preston Idaho Weather</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+
+
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Newsreader:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<meta name="description" content="Taylor Kotter in WWD 230: Web Front Development at Brigham Young University - Idaho. Preston Idaho Weather Page">
+
+<style>
+</style>
+<body>
+<header>
+<h3 id="fridayMessage">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion. <img src="/WWD230/week6/lesson6/images/pancakes.png" alt="pancake"> </h3>
+<div class="heading">
+<img src="images/kotterweathericon.png" alt="logo" id="logo">
+<h1>Kotter Weather</h1>
+<h3>Keeping Idaho prepared for better weather</h3>
+</div>
+<nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="navigation" class="hide" >
+        <li><a href="/WWD230/week9/lesson9/index.html">Home</a></li>
+        <li><a href="/WWD230/week6/lesson6/preston-6.html">Preston</a></li>
+        <li><a href="">Soda Springs</a></li>
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="/WWD230/week8/stormcenter.html">Storm Center</a></li>
+        <li><a href="/WWD230/week7/lesson7/gallery-7.html">Gallery</a></li>
+    </ul>
+</nav>
+</header>
+<main>
+<h2>Preston Idaho</h2>
+<div class="weatherSummary">
+    <picture id="hero">
+        <source media="(min-width: 769px)" srcset = "images/heroimgLarge.jpg">
+        <source media="(min-width: 425px)" srcset = "images/heroimgMedium.jpg">
+        <img src="/WWD230/week6/lesson6/images/heroimgSmall.jpg" alt = "landscape">
+    </picture>
+<!--<img src="images/heroimg.jpeg" alt="hero image" id="hero">-->
+<div class="text">
+    <p class="weatherSummaryHeader"> Weather Summary</p>
+    <p> Currently: <span id="weather"></span></p>
+    <span> High: </span><span id="temp"></span><span>&#x2109;<br><br></span>
+    <span> Wind Chill: </span><span id="windChill"></span><span>&#x2109; </span>
+    <p> Humidity: <span id="humidity"></span>% </p>
+    <span> Wind Speed: </span><span id = "windspeed"> </span><span>mph</p>
+    <p>Weather data source: openweathermap.org</p>
+</div></div>
+<div class="fdf">
+<section class="fivedayforcast">
+<p><b>Five Day Forecast</b></p>
+<table class="forecastingTable">
+    <thead>
+        <tr id="weatherHead"></tr>
+    </thead>
+    <tbody>
+        <tr id="weatherData"></tr>
+    </tbody>
+</table>
+</section>
+</div>
+<div class=article>
+<img src="https://via.placeholder.com/125X100" alt="article picture">
+
+<p>Article Title</p>
+<span> Words n Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words
+    Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words Words
+</span>
+</div>
+</main>
+<footer>
+    <img src="/WWD230/week6/lesson6/images/prestonmap.jpg" alt ="location map" id="map">
+    <div class="footertext">
+    <p><b>Contact Information</b></p>
+    <p>545 South Center St. Rexburg, ID, 83440</p>
+    <p>(208) 932-6699</p>
+    <p>kotterweather@weather.com</p>
+    <div class="social">
+    <a href="https://www.facebook.com"><img src="https://via.placeholder.com/40" alt="facebook link"></a>
+    <a href="https://www.instagram.com"><img src="https://via.placeholder.com/40" alt="instagram link"></a>
+    <a href="https://www.twitter.com"><img src="https://via.placeholder.com/40" alt="twitter link"></a>
+</div>
+</div>
+<span class="copyright">
+     
+<a href="" class="terms">Terms of Use</a> | &copy; 2021 Weather Site Project - Taylor Kotter | <span class="mod"><span id = "todayDate"></span> </span>
+</span>
+</footer>
+<script src="js/preston-10.js"></script>
+<script src="js/prestonapi.js"></script>
+<script src="js/windchill.js"></script>
+
+</body>
+</html>
