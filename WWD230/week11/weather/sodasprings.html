@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Soda Springs Idaho Weather</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/smallpreston.css">
+<link rel="stylesheet" href="css/mediumpreston.css">
+<link rel="stylesheet" href="css/largepreston.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Newsreader:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<meta name="description" content="Taylor Kotter in WWD 230: Web Front Development at Brigham Young University - Idaho. Preston Idaho Weather Page">
+
+<style>
+</style>
+<body>
+<header>
+<h3 id="fridayMessage">Every Saturday is date night! 15% off local resturants. <img src="/WWD230/week11/weather/images/dinner.png" alt="dinner"> </h3>
+<div class="heading">
+<img src="images/kotterweathericon.png" alt="logo" id="logo">
+<h1>Kotter Weather</h1>
+<h3>Keeping Idaho prepared for better weather</h3>
+</div>
+<nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="navigation" class="hide" >
+        <li><a href="/WWD230/week11/weather/index.html">Home</a></li>
+        <li><a href="/WWD230/week11/weather/preston-10.html">Preston</a></li>
+        <li><a href="/wwd230/week11/weather/sodasprings.html">Soda Springs</a></li>
+        <li><a href="/WWD230/week11/weather/fishhaven.html">Fish Haven</a></li>
+        <li><a href="/WWD230/week11/weather/stormcenter.html">Storm Center</a></li>
+        <li><a href="/WWD230/week11/weather/gallery-7.html">Gallery</a></li>
+    </ul>
+</nav>
+</header>
+<main>
+<h2>Soda Springs Idaho</h2>
+<div class="weatherSummary">
+    <picture id="hero">
+        <source media="(min-width: 769px)" srcset = "images/sodaspringLarge.jpg">
+        <source media="(min-width: 425px)" srcset = "images/sodaspringMedium.jpg">
+        <img src="/WWD230/week11/weather/images/sodaspring.jpg" alt = "sodaspring">
+    </picture>
+<!--<img src="images/heroimg.jpeg" alt="hero image" id="hero">-->
+<div class="text">
+    <p class="weatherSummaryHeader"> Weather Summary</p>
+    <p> Currently: <span id="weather"></span></p>
+    <span> High: </span><span id="temp"></span><span>&#x2109;<br><br></span>
+    <span> Wind Chill: </span><span id="windChill"></span><span>&#x2109; </span>
+    <p> Humidity: <span id="humidity"></span>% </p>
+    <span> Wind Speed: </span><span id = "windspeed"> </span><span>mph</span>
+    <p>Weather data source: openweathermap.org</p>
+</div></div>
+<div class="fdf">
+<section class="fivedayforcast">
+<p><b>Five Day Forecast</b></p>
+<table class="forecastingTable">
+    <thead>
+        <tr id="weatherHead"></tr>
+    </thead>
+    <tbody>
+        <tr id="weatherData"></tr>
+    </tbody>
+</table>
+</section>
+</div>
+<div class= "news">
+    <div class="upcoming">
+        <h3>Upcoming Events</h3>
+    <div class="event"></div>
+    </div>
+<div class=article>
+<img src="images/sodasprings.jfif" alt="Soda Springs">
+
+<p>Soda Springs is Known For...</p>
+<span> Soda Springs Geyser. The world's only captive geyser, it was discovered when drilling for a swimming pool nearly 80 years ago. It is now capped and controlled by a timer and it erupts every hour on the hour. The geyser reaches heights of 100 feet, 365 days a year
+</span>
+</div>
+</div>
+</main>
+<footer>
+    <img src="/WWD230/week11/weather/images/sodaspringsmap.PNG" alt ="location map" id="map">
+    <div class="footertext">
+    <p><b>Contact Information</b></p>
+    <p>545 South Center St. Rexburg, ID, 83440</p>
+    <p>(208) 932-6699</p>
+    <p>kotterweather@weather.com</p>
+    <div class="social">
+    <a href="https://www.facebook.com"><img src="https://via.placeholder.com/40" alt="facebook link"></a>
+    <a href="https://www.instagram.com"><img src="https://via.placeholder.com/40" alt="instagram link"></a>
+    <a href="https://www.twitter.com"><img src="https://via.placeholder.com/40" alt="twitter link"></a>
+</div>
+</div>
+<span class="copyright">
+     
+<a href="" class="terms">Terms of Use</a> | &copy; 2021 Weather Site Project - Taylor Kotter | <span class="mod"><span id = "todayDate"></span> </span>
+</span>
+</footer>
+<script src="js/sodasprings.js"></script>
+<script type="module" src="js/sodaspringsapi.js"></script>
+<script src="js/windchill.js"></script>
+<script src="js/sodaspringsevents.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+
+@media only screen and (min-width: 769px){
+    body {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+main {
+    min-width: px;
+    margin: 0 auto;
+    padding: 0px;
+}
+header {
+    background-color: #6B8F71;
+    font-family: 'Girassol', cursive;
+
+}
+nav {
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: tomato;
+}
+header, footer {
+    max-width: 1125px;
+    margin: 0 auto;
+}
+#hero {
+    
+}
+#logo {
+    max-width: 50px;
+    display: inline;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+nav ul {
+    display: inline-block;
+    
+    padding: 5px;
+}
+nav ul li {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+    justify-self: center;
+    
+}
+nav ul li a:link {
+    text-decoration: none;
+}
+nav ul li.active a{
+    color: #fff;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    color: black;
+
+}
+nav ul li a:hover {
+    background-color: rgba(236, 22, 22, 0.4);
+
+}
+.navigation li:first-child {
+    display: none;
+}
+nav button {
+    display: none;
+}
+nav ul.hide {
+    display: block;
+}
+
+.heading {
+    padding-left: 50px
+}
+
+
+footer {
+    margin-top: 20px;
+    background-color: #6B8F71;
+    padding: 10px;
+}
+
+
+
+
+footer a {
+    display: inline;
+}
+
+
+
+}

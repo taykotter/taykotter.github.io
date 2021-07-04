@@ -23,4 +23,3 @@ function preloadImage(img) {
 images.forEach(image => {
     imgObserver.observe(image);
  })
- 
