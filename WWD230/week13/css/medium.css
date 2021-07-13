@@ -1,0 +1,50 @@
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+    /*Medium Changes for Header and Footer*/
+    body {
+        max-width: 768px;
+
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav button {
+        left: 625px;
+        top: 65px;
+        font-size: 2.3em;
+    }
+
+   nav ul li a {
+       margin: 0 10px;
+       font-weight: bold;
+   }
+  
+   
+
+    footer {
+        min-height: 120px;
+        grid-template-rows: 50% 30% 20%
+    }
+
+    /*Main Page Medium*/
+    .callToAction {
+        max-width: 700px;
+        margin: 10px auto;
+    }
+
+    .washingtonSummary {
+        max-width: 725px;
+        margin: 10px auto;
+
+    }
+
+    #carouselExampleControls {
+        max-width: 725px;
+        margin: 10px auto;
+    }
+
+
+
+}
