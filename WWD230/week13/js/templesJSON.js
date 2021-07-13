@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/taykotter/taykotter.github.io/blob/master/WWD230/week13/temples.json';
+const requestURL = 'https://taykotter.github.io/WWD230/week13/temples.json';
 
 fetch(requestURL)
 .then(function (response) {
