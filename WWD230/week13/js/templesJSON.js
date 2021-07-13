@@ -15,6 +15,13 @@ fetch(requestURL)
       let h2 = document.createElement('h2');
       let address = document.createElement('span');
       let city = document.createElement('span');
+      let state = document.createElement('span');
+      let zip = document.createElement('span');
+      picture.setAttribute('src', temples[i].imageurl);
+      picture.setAttribute('alt', temple[i].name);
+
+      
+
 
     
     
