@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'https://github.com/taykotter/taykotter.github.io/blob/master/WWD230/week13/temples.json';
 
 fetch(requestURL)
 .then(function (response) {
@@ -6,7 +6,8 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);
-  
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
+
     
     const events = jsonObject.towns[6].events;
 
