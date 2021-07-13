@@ -1,52 +1,53 @@
-[
-    {
-        "name":"Washington D.C. Temple",
-        "phone":"301-588-0650",
-        "address1":"9900 Stoneybrook Drive",
-        "city":"Kensington",
-        "state":"MD",
-        "zip": 20895,
-        "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/800x500/washington-dc-temple-spring-1160328-wallpaper.jpg",
-        "presidents":[
-            "Clayton F.Foulger", "Kent W. Colton", "Brian C. Swinton", "Earl C.Tingey", "F.Melvin Hammond", "J.Edward Scholz", "Sterling D. Colton", "Earl J. Roueche", "Ralph O. Bradley", "David S. King", "Thomas G. Bell", "Robert W.Barker", "Franklin D. Richard", "Wendell G. Eames", "Edward E. Drury"
-        ]
-    },
+{
+    "temples": [{
+            "name": "Washington D.C. Temple",
+            "phone": "301-588-0650",
+            "address1": "9900 Stoneybrook Drive",
+            "city": "Kensington",
+            "state": "MD",
+            "zip": 20895,
+            "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/800x500/washington-dc-temple-spring-1160328-wallpaper.jpg",
+            "presidents": [
+                "Clayton F.Foulger", "Kent W. Colton", "Brian C. Swinton", "Earl C.Tingey", "F.Melvin Hammond", "J.Edward Scholz", "Sterling D. Colton", "Earl J. Roueche", "Ralph O. Bradley", "David S. King", "Thomas G. Bell", "Robert W.Barker", "Franklin D. Richard", "Wendell G. Eames", "Edward E. Drury"
+            ]
+        },
 
-    {
-        "name":"Philadelphia Pennsylvania Temple",
-        "phone":"215-398-3040",
-        "address1":"1739 Vine Street",
-        "city":"Philadelphia",
-        "state":"PA",
-        "zip":19103,
-        "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/philadelphia-pennsylvania/1280x800/philadelphia-pennsylvania-temple-exterior-1775822-wallpaper.jpg",
-        "presidents":[
-            "Milan F. Kunz", "Bruce R Winn"
-        ]
-    } ,   
-    {
-        "name":"Raleigh North Carolina Temple",
-        "phone":"919-362-4135",
-        "address1":"574 Bryan Drive",
-        "city":"Apex",
-        "state":"NC",
-        "zip":27502,
-        "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/raleigh-north-carolina/800x500/6-e6c3ef618af28971330a0eebb464981b4bbe8650.jpeg",
-        "presidents":[
-            "Mark A. Amacher", "Kerry L. Lee", "John C. Taggart", "J. Mitchell Scott", "K. Max Stainback", "Grady L. Barnes", "Richard D. Lee"
-        ]
-    },
+        {
+            "name": "Philadelphia Pennsylvania Temple",
+            "phone": "215-398-3040",
+            "address1": "1739 Vine Street",
+            "city": "Philadelphia",
+            "state": "PA",
+            "zip": 19103,
+            "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/philadelphia-pennsylvania/1280x800/philadelphia-pennsylvania-temple-exterior-1775822-wallpaper.jpg",
+            "presidents": [
+                "Milan F. Kunz", "Bruce R Winn"
+            ]
+        },
+        {
+            "name": "Raleigh North Carolina Temple",
+            "phone": "919-362-4135",
+            "address1": "574 Bryan Drive",
+            "city": "Apex",
+            "state": "NC",
+            "zip": 27502,
+            "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/raleigh-north-carolina/800x500/6-e6c3ef618af28971330a0eebb464981b4bbe8650.jpeg",
+            "presidents": [
+                "Mark A. Amacher", "Kerry L. Lee", "John C. Taggart", "J. Mitchell Scott", "K. Max Stainback", "Grady L. Barnes", "Richard D. Lee"
+            ]
+        },
 
-    {
-        "name":"Manhattan New York Temple",
-        "phone":" 917-441-8220",
-        "address1":"125 Columbus Avenue",
-        "city":"New York",
-        "state":"NY",
-        "zip":10023,
-        "imageurl":"hhttps://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manhattan-new-york/800x500/manhattan-temple-lds-246601-wallpaper.jpg",
-        "presidents":[
-            "G. Kem Nixon", "E. Markham Bench", "Steven D. Bennion", "W. Blair Garff", "William J. Frost", "John R. Stone"
-        ]
-    } 
-]
+        {
+            "name": "Manhattan New York Temple",
+            "phone": " 917-441-8220",
+            "address1": "125 Columbus Avenue",
+            "city": "New York",
+            "state": "NY",
+            "zip": 10023,
+            "imageurl": "hhttps://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manhattan-new-york/800x500/manhattan-temple-lds-246601-wallpaper.jpg",
+            "presidents": [
+                "G. Kem Nixon", "E. Markham Bench", "Steven D. Bennion", "W. Blair Garff", "William J. Frost", "John R. Stone"
+            ]
+        }
+    ]
+}
