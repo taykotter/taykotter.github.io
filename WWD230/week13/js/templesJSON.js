@@ -16,12 +16,16 @@ fetch(requestURL)
       let address = document.createElement('p');
       let number = document.createElement('p');
       let picture = document.createElement('img');
+      let website = document.createElement('a');
 
 
       h2.textContent = temples[i].name;
-      h2.address = temples[i].address + " " + temples[i].city + " " + temples[i].state;
+      address.textContent = temples[i].address1 + " " + temples[i].city + " " + temples[i].state;
       picture.setAttribute('src', temples[i].imageurl);
       picture.setAttribute('alt', temples[i].name);
+      website.setAttribute('href', temples[i].website);
+      website.textcontent = "Becaue of COVID-19, you must schedule appointments online. Here's this link to this temple's site!"
+      
 
 
 
@@ -29,6 +33,8 @@ fetch(requestURL)
       card.appendChild(address);
       card.appendChild(number);
       card.appendChild(picture);
+      card.appendChild(website);
+      
 
     
     

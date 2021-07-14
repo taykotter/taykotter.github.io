@@ -13,7 +13,11 @@
             ],
             "closures": [
                 "Closed for Renovations "
-            ]
+            ],
+            "services": [
+                "No Services Avalible"
+            ],
+            "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng"
         },
 
         {
@@ -44,7 +48,12 @@
                 "Wednesday, 24 November 2021 - Thursday, 25 November 2021",
                 "Friday, 24 December 2021 - Saturday, 25 December 2021",
                 "Friday, 31 December 2021"
-            ]
+            ],
+            "services": [
+                "Clothing Rental"
+            ],
+            "website": "https://www.churchofjesuschrist.org/temples/details/philadelphia-pennsylvania-temple?lang=eng"
+            
         },
         {
             "name": "Raleigh North Carolina Temple",
@@ -60,7 +69,11 @@
             "closures": [
                 "Saturday, 2 October 2021 - Sunday, 3 October 2021",
                 "Monday, 8 November 2021 - Sunday, 2 January 2022"
-            ]
+            ],
+            "services": [
+                "No Services Avalible"
+            ],
+            "website": "https://www.churchofjesuschrist.org/temples/details/raleigh-north-carolina-temple?lang=eng"
         },
 
         {
@@ -80,7 +93,11 @@
                 "Thursday, 25 November 2021 - Friday, 26 November 2021",
                 "Friday, 24 December 2021 - Saturday, 25 December 2021",
                 "Friday, 31 December 2021 - Saturday, 1 January 2022"
-            ]
+            ],
+            "services": [
+                "Clothing Rental", "Distribution Center Nearby"
+            ],
+            "website": "https://www.churchofjesuschrist.org/temples/details/manhattan-new-york-temple?lang=eng"
 
         }
     ]

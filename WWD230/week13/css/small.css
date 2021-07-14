@@ -118,3 +118,7 @@ body {
     border-color: #d4a373;
     
 }
+/*Temple's Small*/
+.temples img {
+    max-width: 250px;
+}
