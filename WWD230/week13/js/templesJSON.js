@@ -16,15 +16,15 @@ fetch(requestURL)
       let address = document.createElement('p');
       let number = document.createElement('p');
       let picture = document.createElement('img');
-      let website = document.createElement('a');
+      let website = document.createElement('p');
 
 
       h2.textContent = temples[i].name;
       address.textContent = temples[i].address1 + " " + temples[i].city + " " + temples[i].state;
       picture.setAttribute('src', temples[i].imageurl);
       picture.setAttribute('alt', temples[i].name);
-      website.setAttribute('href', temples[i].website);
-      website.textcontent = "Becaue of COVID-19, you must schedule appointments online. Here's this link to this temple's site!"
+      website.textContent= "To see closures, COVID-regulations, and open times to make an appointment, go to this website: " + temples[i].website;
+     
       
 
 

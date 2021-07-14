@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description"
-            content="Taylor Kotter in WWD 230: Web Front Development at Brigham Young University - Idaho" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Dancing+Script:wght@400;700&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="/WWD230/week13/css/small.css" />
-        <link rel="stylesheet" href="/WWD230/week13/css/medium.css" />
-        <!--<link rel="stylesheet" href="/WWD230/week13/css/large.css" />-->
-        <title>Temple Inn and Suite</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Taylor Kotter in WWD 230: Web Front Development at Brigham Young University - Idaho" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Dancing+Script:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/WWD230/week13/css/small.css" />
+    <link rel="stylesheet" href="/WWD230/week13/css/medium.css" />
+    <link rel="stylesheet" href="/WWD230/week13/css/large.css" />
+    <title>Temple Inn and Suite</title>
+</head>
+
 <body>
     <header>
         <a href="/WWD230/week13/html/index.html"><img src="/WWD230/week13/images/templeicon.jpg" alt="templeIcon"></a>
@@ -36,22 +38,77 @@
             </ul>
     </header>
     <main>
-       
+        <main>
+            <h2>Reservations</h2>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label><span>Full Name: </span> <input type="text" name="fname" placeholder="Full Name"
+                            pattern="[A-z\s]{5,}" required></label>
+                    <label><span>Email: </span><input type="email" name="email" placeholder="youremail@mail.com"
+                            autocomplete="off"></label>
+
+                    <label><span>Phone: </span><input type="tel" name="phone" required></label>
+
+                    <label><span>Zip code: </span> <input type="number" name="zip" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Reservation Details </legend>
+
+                    <label><span>Reservation Start Date: </span><input type="date" name="date"></label>
+                    <label><span>Reservation End Date: </span><input type="date" name="date"></label>
+
+                    <label><span>Location:  </span><input type="text" name="innLocation" list="locations">
+                        <datalist id="locations">
+                            <option value="Washington D.C."></option>
+                            <option value="Philadelphia, Pennsylvania"></option>
+                            <option value="Raleigh, North Carolina"></option>
+                            <option value="Manhattan, New York"></option>
+                        </datalist>
+                    </label>
+
+
+
+                    <label><span>Type of Room(s): <br></span>
+                        <input type="checkbox" id="familyRoom" name="familyRoom" value="family">
+                        <label for="familyRoom"> Family Room</label>
+                        <input type="checkbox" id="queen1Room" name="queen1Room" value="queen1">
+                        <label for="queen1Room"> One Queen</label>
+                        <input type="checkbox" id="queen2Room" name="queen2Room" value="queen2">
+                        <label for="queen2Room"> Two Queens</label>
+                        <input type="checkbox" id="king1Room" name="king1Room" value="king1">
+                        <label for="king1Room"> One King</label>
+                        <input type="checkbox" id="honeymoonRoom" name="honeymoonRoom" value="honeymoon">
+                        <label for="honeymoonRoom"> Honeymoon Suite</label>
+                        </select>
+                    </label>
+                    <label><span>Total Rooms Needed </span> <input type="text" name="numberRooms"></label>
+                    <label><span>Additional Information </span>
+                        <textarea name="additionalinformation"></textarea>
+                    </label>
+                </fieldset>
+
+
+                <input type="submit" value="Submit" class="reservationsubmitBtn">
+            </form>
+        </main>
     </main>
     <footer>
         <p class="scripture"> Doctrine and Covenants 42:36 - "That my covenant people may be gathered in one in that day
             when I shall come to my temple. And this I do for the salvation of my people"</p>
-            <div class ="location">
-                <span> 4800 Montgomery Ln #300, Bethesda, MD 20814 <br> 208-775-1153</span>
-            </div>
+        <div class="location">
+            <span> 4800 Montgomery Ln #300, Bethesda, MD 20814 <br> 208-775-1153</span>
+        </div>
         <span class="copyright">
             <a href="" class="terms">Terms of Use</a> | &copy; 2021 Temple Inn and Suites
             Project - Taylor Kotter |
             <span class="mod"><span id="todayDate"></span> </span>
         </span>
-        
+
         <p class="iconcredit">Icon: Mormon Temple by Jason Dilworth from the Noun Project</p>
     </footer>
     <script src="/WWD230/week13/js/menu.js"></script>
 </body>
+
 </html>

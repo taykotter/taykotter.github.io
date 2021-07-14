@@ -122,3 +122,30 @@ body {
 .temples img {
     max-width: 250px;
 }
+
+/*Reservations Small*/
+form fieldset {
+    border: 1px black solid;
+    margin: 1.3rem 0;
+    padding: .5rem 2%;
+    border-radius: .8em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.reservationsubmitBtn {
+    background-color:  #F7DD72;
+    border-color: #d4a373;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+
+}
+/*Thanks Small*/
+main h2 {
+    text-align: center;
+}
+
+
