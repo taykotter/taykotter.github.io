@@ -17,6 +17,7 @@ fetch(requestURL)
       let number = document.createElement('p');
       let picture = document.createElement('img');
       let website = document.createElement('p');
+      let summary = document.createElement('p');
 
 
       h2.textContent = temples[i].name;
@@ -26,8 +27,10 @@ fetch(requestURL)
       number.textContent = "Phone Number: " + temples[i].phone;
       number.setAttribute("id", "number");
       picture.setAttribute('alt', temples[i].name);
+      summary.textContent = "About this temple: " + temples[i].summary;
+      summary.setAttribute("id", "summary");
       website.textContent= "To see closures, COVID-regulations, and open times to make an appointment, go to this website: " + temples[i].website;
-      website.setAttribute("id", "websiteLink")
+      website.setAttribute("id", "websiteLink");
      
       
 
