@@ -20,10 +20,14 @@ fetch(requestURL)
 
 
       h2.textContent = temples[i].name;
-      address.textContent = temples[i].address1 + " " + temples[i].city + " " + temples[i].state;
+      address.textContent = "Address: " + temples[i].address1 + " " + temples[i].city + ", " + temples[i].state + ' '+  temples[i].zip;
+      address.setAttribute("id", "address")
       picture.setAttribute('src', temples[i].imageurl);
+      number.textContent = "Phone Number: " + temples[i].phone;
+      number.setAttribute("id", "number");
       picture.setAttribute('alt', temples[i].name);
       website.textContent= "To see closures, COVID-regulations, and open times to make an appointment, go to this website: " + temples[i].website;
+      website.setAttribute("id", "websiteLink")
      
       
 

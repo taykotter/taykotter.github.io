@@ -39,9 +39,9 @@
     </header>
     <main>
         <main>
-            <h2>Reservations</h2>
+            <h1>Reservations</h1>
             <form method="get" action="thanks.html">
-                <fieldset>
+                <fieldset class="contactInfo">
                     <legend>Contact Information</legend>
                     <label><span>Full Name: </span> <input type="text" name="fname" placeholder="Full Name"
                             pattern="[A-z\s]{5,}" required></label>
@@ -53,7 +53,7 @@
                     <label><span>Zip code: </span> <input type="number" name="zip" required></label>
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="reservationDetails">
                     <legend>Reservation Details </legend>
 
                     <label><span>Reservation Start Date: </span><input type="date" name="date"></label>
