@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description"
-            content="Taylor Kotter in WWD 230: Web Front Development at Brigham Young University - Idaho" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Dancing+Script:wght@400;700&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="/WWD230/week13/css/small.css" />
-        <link rel="stylesheet" href="/WWD230/week13/css/medium.css" />
-        <link rel="stylesheet" href="/WWD230/week13/css/large.css" />
-        <title>Temple Inn and Suite</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Taylor Kotter in WWD 230: Web Front Development at Brigham Young University - Idaho" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Dancing+Script:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/WWD230/week13/css/small.css" />
+    <link rel="stylesheet" href="/WWD230/week13/css/medium.css" />
+    <link rel="stylesheet" href="/WWD230/week13/css/large.css" />
+    <title>Temple Inn and Suite</title>
+</head>
+
 <body>
     <header>
         <a href="/WWD230/week13/html/index.html"><img src="/WWD230/week13/images/templeicon.jpg" alt="templeIcon"></a>
@@ -36,8 +36,11 @@
             </ul>
     </header>
     <main>
+        <h1>Services</h1>
+
         <div class="amenities">
             <h3>Free Amenities</h3>
+
             <ul>
                 <li>Breakfast</li>
                 <li>Exercise/workout room</li>
@@ -47,35 +50,51 @@
                 <li>Temple shuttle</li>
                 <li>Family history consultation and family ordinance card service</li>
             </ul>
-            <img src="/WWD230/week13/images/pool.jpg" alt="pool">
+            <picture>
+                <source media="(min-width:769px)" srcset="pool.jpg">
+                <source media="(min-width: 426px) and (max-width: 768px)" srcset="breakfast.jpg">
+                <img id="gym" src="/WWD230/week13/images/gym.jpg" alt="gym">
+            </picture>
+
         </div>
-        <div class="specialServices"> 
+        <div class="specialServices">
             <h3>Special Services</h3>
             <ul>
-                <li>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes</li>
+                <li>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and
+                    need to change to and from church clothes</li>
                 <li>A playroom and low-cost, short-term babysitting services for the children of patrons</li>
                 <li>Long-term stay accommodations in kitchenette suites for full-time temple missionaries</li>
                 <li>Temple history themed reception and sitting area</li>
-                <li>A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving</li>
+                <li>A wedding reception hall that can be easily customized with a simple catering menu and kitchen
+                    access for food preparation and serving</li>
                 <li>A family search center that supports family search and ordinance work</li>
             </ul>
-
+            <picture>
+                <source media="(min-width:769px)" srcset="playroom.jpg">
+                <source media="(min-width: 426px) and (max-width: 768px)" srcset="reception.jpg">
+                <img id="kitchenette" src="/WWD230/week13/images/kitchenette.jpg" alt="gym">
+            </picture>
+        </div>
+        <div class="serviceButtons">
+            <a href="missionary.html"><button>Full Time Missionary Services</button></a>
+            <a href="reception.html"><button>Reception Services</button></a>
         </div>
     </main>
     <footer>
         <p class="scripture"> Doctrine and Covenants 42:36 - "That my covenant people may be gathered in one in that day
             when I shall come to my temple. And this I do for the salvation of my people"</p>
-            <div class ="location">
-                <span> 4800 Montgomery Ln #300, Bethesda, MD 20814 <br> 208-775-1153</span>
-            </div>
+        <div class="location">
+            <span> 4800 Montgomery Ln #300, Bethesda, MD 20814 <br> 208-775-1153</span>
+        </div>
         <span class="copyright">
             <a href="" class="terms">Terms of Use</a> | &copy; 2021 Temple Inn and Suites
             Project - Taylor Kotter |
             <span class="mod"><span id="todayDate"></span> </span>
         </span>
-        
+
         <p class="iconcredit">Icon: Mormon Temple by Jason Dilworth from the Noun Project</p>
     </footer>
     <script src="/WWD230/week13/js/menu.js"></script>
 </body>
+
 </html>

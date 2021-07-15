@@ -16,7 +16,8 @@ fetch(requestURL)
       let address = document.createElement('p');
       let number = document.createElement('p');
       let picture = document.createElement('img');
-      let weather = document.createElement('p')
+      let weather = document.createElement('p');
+      let currently = document.createElement('p');
       let website = document.createElement('p');
       let summary = document.createElement('p');
 
@@ -31,6 +32,7 @@ fetch(requestURL)
       summary.textContent = "About this temple: " + temples[i].summary;
       summary.setAttribute("id", "summary");
       weather.setAttribute('id', temples[i].city);
+      currently.setAttribute('id', temples[i].state);
       website.textContent= "To see closures, COVID-regulations, and open times to make an appointment, go to this website: " + temples[i].website;
       website.setAttribute("id", "websiteLink");
      
@@ -41,6 +43,8 @@ fetch(requestURL)
       card.appendChild(h2);
       card.appendChild(address);
       card.appendChild(number);
+      card.appendChild(weather);
+      card.appendChild(currently);
       card.appendChild(picture);
       card.appendChild(website);
       
