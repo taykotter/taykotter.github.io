@@ -171,9 +171,7 @@ legend {
     margin-left: 20px;
     
 }
-.reservationDetails {
-    
-}
+
 
 .contactInfo label {
     display: inline-block;
@@ -195,3 +193,24 @@ legend {
   }
 
 
+
+  /*Services Small*/
+  .amenities, .specialServices {
+    border: 1px black solid;
+    margin: 1.3rem 0;
+    padding: .5rem 2%;
+    border-radius: .8em;
+    display: flex;
+    flex-wrap:inherit;
+
+  }
+
+  .amenities h3, .specialServices h3 {
+      font-weight: bold;
+  }
+  .amenities ul li, .specialServices ul li {
+    list-style-type:square;
+  }
+  .amenities img {
+      max-height: 300px;
+  }

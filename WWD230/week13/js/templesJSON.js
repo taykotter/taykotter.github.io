@@ -16,6 +16,7 @@ fetch(requestURL)
       let address = document.createElement('p');
       let number = document.createElement('p');
       let picture = document.createElement('img');
+      let weather = documenet.createElement('p')
       let website = document.createElement('p');
       let summary = document.createElement('p');
 
@@ -29,6 +30,7 @@ fetch(requestURL)
       picture.setAttribute('alt', temples[i].name);
       summary.textContent = "About this temple: " + temples[i].summary;
       summary.setAttribute("id", "summary");
+      weather.setAttribute('id', temples[i].city);
       website.textContent= "To see closures, COVID-regulations, and open times to make an appointment, go to this website: " + temples[i].website;
       website.setAttribute("id", "websiteLink");
      
