@@ -16,7 +16,7 @@ fetch(requestURL)
       let address = document.createElement('p');
       let number = document.createElement('p');
       let picture = document.createElement('img');
-      let weather = documenet.createElement('p')
+      let weather = document.createElement('p')
       let website = document.createElement('p');
       let summary = document.createElement('p');
 
