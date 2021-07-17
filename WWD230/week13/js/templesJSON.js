@@ -47,6 +47,7 @@ fetch(requestURL)
       card.appendChild(currently);
       card.appendChild(picture);
       card.appendChild(website);
+      card.appendChild(summary);
       
 
     
